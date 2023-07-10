@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		440E95AE2A5C2E3100317F5B /* GoldenListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440E95AD2A5C2E3100317F5B /* GoldenListApp.swift */; };
-		440E95B02A5C2E3100317F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440E95AF2A5C2E3100317F5B /* ContentView.swift */; };
 		440E95B22A5C2E3200317F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440E95B12A5C2E3200317F5B /* Assets.xcassets */; };
 		440E95B52A5C2E3300317F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440E95B42A5C2E3300317F5B /* Preview Assets.xcassets */; };
+		440E95BD2A5C310B00317F5B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440E95BC2A5C310B00317F5B /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		440E95AA2A5C2E3100317F5B /* GoldenList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldenList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440E95AD2A5C2E3100317F5B /* GoldenListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenListApp.swift; sourceTree = "<group>"; };
-		440E95AF2A5C2E3100317F5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		440E95B12A5C2E3200317F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440E95B42A5C2E3300317F5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		440E95BC2A5C310B00317F5B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				440E95AD2A5C2E3100317F5B /* GoldenListApp.swift */,
-				440E95AF2A5C2E3100317F5B /* ContentView.swift */,
+				440E95BE2A5C32D400317F5B /* Model */,
+				440E95BF2A5C32E400317F5B /* ViewModel */,
+				440E95BB2A5C305B00317F5B /* View */,
 				440E95B12A5C2E3200317F5B /* Assets.xcassets */,
 				440E95B32A5C2E3300317F5B /* Preview Content */,
 			);
@@ -65,6 +67,28 @@
 				440E95B42A5C2E3300317F5B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		440E95BB2A5C305B00317F5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				440E95BC2A5C310B00317F5B /* ListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		440E95BE2A5C32D400317F5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		440E95BF2A5C32E400317F5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				440E95B02A5C2E3100317F5B /* ContentView.swift in Sources */,
 				440E95AE2A5C2E3100317F5B /* GoldenListApp.swift in Sources */,
+				440E95BD2A5C310B00317F5B /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
