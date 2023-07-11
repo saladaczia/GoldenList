@@ -9,19 +9,27 @@ import SwiftUI
 
 struct RowView: View {
     
-    let title: String
+    // Constant with item from ItemModel
+    let item: ItemsModel
     
     var body: some View {
+        // Row in List
         HStack {
-            Image(systemName: "checkmark.circle")
+            // Checkmark image
+            Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
                 .renderingMode(.original)
-            Text(title)
+            // Text with user item
+            Text(item.title)
         }
     }
+    
 }
 
 struct RowView_Previews: PreviewProvider {
+    // Sample item text
+    static var itemSample = ItemsModel(title: "first", isCompleted: true)
+    
     static var previews: some View {
-        RowView(title: "First item")
+        RowView(item: itemSample)
     }
 }
