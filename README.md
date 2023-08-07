@@ -54,8 +54,10 @@ GoldenList is a task management application built with SwiftUI and the MVVM desi
 
 ## Screenshots
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-08-07 at 10 18 34](https://github.com/saladaczia/GoldenList/assets/75745541/a0f75ac1-a702-44d7-ad6c-bd8923738be2)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-08-07 at 10 18 34](https://github.com/saladaczia/GoldenList/assets/75745541/ae4ad88c-cb3a-4cce-9040-2870f60bedc1)
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-08-07 at 10 18 41](https://github.com/saladaczia/GoldenList/assets/75745541/310bca69-a5de-40b5-a202-c030c89dbba2)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-08-07 at 10 18 41](https://github.com/saladaczia/GoldenList/assets/75745541/19524ee1-d1c0-4664-adbe-dc036fb4139e)
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-08-07 at 10 19 32](https://github.com/saladaczia/GoldenList/assets/75745541/03fbe773-7e2e-4bbc-a0ca-0434a6b5cb81)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-08-07 at 10 19 32](https://github.com/saladaczia/GoldenList/assets/75745541/021c3af0-5426-45f3-81fe-734c0aebb07b)
+
+
